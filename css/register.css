@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url('backimage/login3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color:yellow;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container h2{
+    color: orangered;
+    margin-left:-580px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 3.5s;
+}
+.navbar ul li ul.dropdown li{
+	display:block;
+}
+.navbar ul li ul.dropdown{
+	width:100%;
+	background:#2248c;
+	position:absolute;
+	z-index:999;
+	display:none;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.navbar ul li:hover ul.dropdown{
+	display:block;
+}
+
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+
+.container1 {
+    display:flex;
+    justify-content: center;
+	margin-right:50%;
+    align-items: center;
+    height: 90vh;
+}
+.login-form {
+    background-color: rgba(255,768,345,0.5);/*rgba(255, 255, 255, 0.7);*/
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-form h2 {
+    text-align: center;
+	position:relative;
+	bottom:20px;
+	
+}
+
+.login-form form {
+    display: flex;
+    flex-direction:column;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+	transform:scale(1.04);
+	box-shadow:0 0 10px rgb(134,134,134);
+}
+.login-form p {
+    text-align: center;
+	
+}
+
+.login-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}

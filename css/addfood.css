@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+    padding: 0;
+}body {
+    background-image: url("backimage/contact2.jpg");
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h2{
+	color:yellow;
+	font-size:30px;
+}
+.container1 {
+    display:flex;
+    justify-content: center;
+	margin-right:-20%;
+    align-items: center;
+    height: 90vh;
+}
+.login-form {
+    background-color: rgba(255,768,345,0.5);/*rgba(255, 255, 255, 0.7);*/
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	width:55vw;
+	padding:10px 10px;
+}
+.login-form h2 {
+    text-align: center;
+	position:relative;
+	bottom:40px;
+	color:red;
+}
+.login-form form {
+    display: flex;
+    flex-direction:column;
+}
+label{
+	color:yellow;
+	margin:5px 10px;
+}
+input {
+	background-color: rgba(255,768,345,0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+	width:100%;
+}
+.login-form button {
+    margin:5px 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+	transform:scale(1.04);
+	box-shadow:0 0 10px rgb(134,134,134);
+}
+.btn a{
+	padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	text-decoration:none;
+}
+.btn a:hover {
+    background-color: #0056b3;
+	transform:scale(1.04);
+	box-shadow:0 0 10px rgb(134,134,134);
+}
+
+

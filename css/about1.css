@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+    background-image:url('backimage/about.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color:yellow;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container h2{
+    color: orangered;
+    margin-right:640PX;
+	margin-top:7px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding:20px;
+    text-transform: uppercase;
+	
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    transition: 3.5s;
+}
+.navbar ul li ul.dropdown li{
+	display:block;
+}
+.navbar ul li ul.dropdown{
+	width:100%;
+	background:#2248c;
+	position:absolute;
+	z-index:999;
+	display:none;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.navbar ul li:hover ul.dropdown{
+	display:block;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+
+.about .contact p {
+  color:rgb(134,23,264);
+  font-size: 13px;
+  position:relative;
+  margin-top:80px;
+  
+}
+
+.content {
+  color:white;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  top:90px;
+}
+
+.content h1 {
+  color:white;
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  margin-top:40px;
+}
+
+.about .desc {
+  width: 80%;
+  height: 20%;
+}
+.about .desc  p {
+  font-size: 15px;
+  
+}
+
+.content h2 {
+  font-size: 23px;
+  position: relative;
+}
+.about .desc {
+  border: 2px solid yellow;
+  background-color: yellow;
+  position: relative;
+  top:150px;
+  margin-left:390px;
+  padding: 2rem;
+  max-width: 550px;
+}
+.about .contact {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top:90px;
+  align-items:center;
+}
+.about .contact span {
+	color:rgb(134,23,264);
+  font-size: 18px;
+  text-decoration: underline;
+  position:relative;
+  top:30px;
+}
+

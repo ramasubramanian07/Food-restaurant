@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background:white;
+   background-size: cover;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+	 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color:yellow;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.container h2{
+    color: orangered;
+    margin-right:640PX;
+	margin-top:7px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding:20px;
+    text-transform: uppercase;
+	
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 4px;
+    transition: 3.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+.menu{
+	padding:0 10px 30px 10px;
+	display:grid;
+	grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+	grid-gap:20px 40px
+}
+.heading{
+	background:red;
+	color:white;
+	margin-bottom:30px;
+	padding:30px 0;
+	grid-column:1/-1;
+	text-align:center;
+}
+/*.heading>h1{
+	font-weight:400;
+	font-size:32px;
+	letter-spacing:10px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}*/
+.food-items{
+	display:grid;
+	position:relative;
+	grid-template-rows:auto 1fr;
+	border-radius:15px;
+	box-shadow:0 0 15px rgba(0,0,0,0.6);
+	transition:.2s ease-in-out;
+}
+.food-items img{
+	position:relative;
+	width:100%;
+	height:240px;
+	border-radius:15px 15px 0 0;
+	cursor:poiter;
+}
+h1{
+	grid-column:1/-1;
+	text-align:center;
+}
+.details{
+	padding:5px 5px;
+	display:grid;
+	grid-template-rows:auto 1fr 50px;
+	grid-row-gap:10px;
+}
+.details-sub>h5{
+	font-weight:600;
+	font-size:18px;
+}
+.price{
+	text-align:right;
+}
+.details>p{
+	color:#6f6f6f;
+	font-size:15px;
+	line-height:28px;
+	font-weight:400;
+	align-self:stretch;
+}
+.details>button{
+	background-color:#e84343;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	font-weight:600;
+	border-radius:5px;
+	width:180px;
+	
+}
+.food-items img:hover{
+	border-radius:20px;
+	background-color:white;
+	transform:scale(1.04);
+	box-shadow:0 0 10px rgb(134,134,134);
+}
+.details>button:hover{
+	box-shadow:0 0 10px rgb(134,134,134);
+}
+/*.cart{
+	width:250px;
+	float:right;
+	text-align:center;
+	border:1px solid black;
+	overflow-y:scroll;
+	height:100%;
+}
+.cartImg >img{
+	width:200px;
+	
+}*/
